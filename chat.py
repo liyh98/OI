@@ -1,3 +1,4 @@
+# coding=UTF-8
 from wxpy import *
 import time
 import random
