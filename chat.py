@@ -2,7 +2,7 @@ from wxpy import *
 import time
 import random
 
-bot = Bot()
+bot = Bot(cache_path=True,console_qr=True)
 gp = bot.groups().search('外出')[0]
 larger_gp = bot.groups().search('stgs')[0]
 zoey = bot.friends().search('念')[0]
